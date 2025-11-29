@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROMECIA · Plataforma IA para Calidad de Código</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .gradient-title {
+      background: linear-gradient(90deg, #38bdf8, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+
+<body class="bg-slate-950 text-slate-100">
+
+  <!-- HERO -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <h1 class="text-5xl font-extrabold mb-4 gradient-title">
+      PROMECIA
+    </h1>
+    <p class="text-lg text-slate-300 max-w-2xl">
+      Plataforma inteligente que analiza métricas de calidad de código,
+      predice el esfuerzo para mejorar un servicio y proyecta el impacto
+      de implementar buenas prácticas de ingeniería.
+    </p>
+
+    <div class="mt-8 flex gap-4">
+      <a href="index.html"
+        class="px-6 py-3 bg-sky-600 hover:bg-sky-500 rounded-xl text-sm font-semibold">Ver
+        </a>
+
+      <a href="#features"
+        class="px-6 py-3 bg-slate-800 hover:bg-slate-700 rounded-xl text-sm font-semibold">Características</a>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="py-20 bg-slate-900 px-6">
+    <h2 class="text-center text-3xl font-bold mb-12 gradient-title">
+      ¿Qué hace PROMECIA?
+    </h2>
+
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
+
+      <div class="p-6 bg-slate-800 rounded-xl border border-slate-700">
+        <h3 class="text-xl font-semibold mb-2">Cálculo de Riesgo Técnico</h3>
+        <p class="text-slate-300 text-sm">
+          Analiza densidad de code smells, issues críticos, duplicación,
+          complejidad cognitiva y cobertura de pruebas.
+        </p>
+      </div>
+
+      <div class="p-6 bg-slate-800 rounded-xl border border-slate-700">
+        <h3 class="text-xl font-semibold mb-2">Estimación Inteligente</h3>
+        <p class="text-slate-300 text-sm">
+          Modelo basado en XGBoost que predice horas de esfuerzo para
+          alcanzar un nivel de calidad objetivo.
+        </p>
+      </div>
+
+      <div class="p-6 bg-slate-800 rounded-xl border border-slate-700">
+        <h3 class="text-xl font-semibold mb-2">Simulación SonarQube</h3>
+        <p class="text-slate-300 text-sm">
+          Conexión simulada con Sonar para cargar métricas reales de diferentes servicios.
+        </p>
+      </div>
+
+      <div class="p-6 bg-slate-800 rounded-xl border border-slate-700">
+        <h3 class="text-xl font-semibold mb-2">Plan de Mejora Automático</h3>
+        <p class="text-slate-300 text-sm">
+          Sugiere distribución del esfuerzo: refactor, pruebas, seguridad y gestión.
+        </p>
+      </div>
+
+      <div class="p-6 bg-slate-800 rounded-xl border border-slate-700">
+        <h3 class="text-xl font-semibold mb-2">Estados A–E</h3>
+        <p class="text-slate-300 text-sm">
+          Muestra el nivel actual y proyectado del servicio (A–E), mostrando
+          la mejora al aplicar las buenas prácticas.
+        </p>
+      </div>
+
+      <div class="p-6 bg-slate-800 rounded-xl border border-slate-700">
+        <h3 class="text-xl font-semibold mb-2">Exportación PDF</h3>
+        <p class="text-slate-300 text-sm">
+          Reporte ejecutivo listo para entregar a arquitectura, calidad o management.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-6 text-center text-slate-500 text-sm bg-slate-950 border-t border-slate-800">
+    PROMECIA · NousIA · Plataforma IA para Calidad de Código
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+.vite/
+
+# Dependency directories
+/.pnp
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Mac
+__MACOSX/
+
+# Tests outputs
+coverage/
+
+# Optional npm cache
+.npm
+
+# Local build / cache
+.cache/
+
+# Lock files handled by CI — keep package-lock.json if you want reproducible installs
+# but ignore pnpm-lock and other local lock artifacts if needed
+pnpm-lock.yaml
+
+# JetBrains
+/.idea/
